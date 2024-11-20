@@ -1,5 +1,9 @@
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        int age = 30;
+        int temperature = 20;
+        age = 35;
+        System.out.println(age);
+        System.out.println(temperature);
     }
 }
