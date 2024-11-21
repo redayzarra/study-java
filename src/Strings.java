@@ -30,5 +30,13 @@ public class Strings {
 
 		// Get rid of whitespaces
 		System.out.println(message.trim());
+
+		// Escaping to include double quotes
+		String message3 = "Hello \"ReDay\"";
+		System.out.println(message3);
+
+		// Add new lines to strings
+		String sentence = "Who is this? \n ReDay";
+		System.out.println(sentence);
 	}
 }
