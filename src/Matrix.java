@@ -14,5 +14,9 @@ public class Matrix {
 		int[][][] threeDMatrix = new int[6][6][6];
 		threeDMatrix[0][0][0] = 5;
 		System.out.println(Arrays.deepToString(threeDMatrix));
+
+		// Using the curly braces syntax for predefined matrices
+		int [][] numbers = { {1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+		System.out.println(Arrays.deepToString(numbers));
 	}
 }
