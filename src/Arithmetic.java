@@ -25,5 +25,10 @@ public class Arithmetic {
 		x = 1;
 		y = ++x;
 		System.out.println(x + ", " + y); // Y also increments with X
+
+		int number = 10 + 3 * 2; // Answer is 16 since multiplication 1st
+		System.out.println(number);
+		number = (10 + 3) * 2;
+		System.out.println(number);
 	}
 }
