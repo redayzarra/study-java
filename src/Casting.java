@@ -5,7 +5,6 @@ public class Casting {
 
 		short x = 1; // Short stores two bytes
 		int y = x + 2; // Int stores four bytes
-		
 		System.out.println(y); // Any value in short can be converted 
 
 		double a = 1.1;
@@ -16,5 +15,10 @@ public class Casting {
 		double num = 1.1;
 		int res = (int)num + 3; // Manually define "num" to be an int
 		System.out.println(res);
+
+		// Converting a string into an integer
+		String letter = "1";
+		int number = Integer.parseInt(letter) + 2;
+		System.out.println(number);
 	}
 }
