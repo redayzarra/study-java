@@ -18,5 +18,13 @@ public class Mortgage {
 
 		// Calculate the monthly interest
 		float monthlyInterest = annualInterest / PERCENT / MONTHS;
+
+		// Ask the user for the period
+		System.out.print("Period (Years): ");
+		byte years = scanner.nextByte();
+
+		// Calculate the total number of payments
+		int numberOfPayments = years * MONTHS;
+		System.out.println(principal + monthlyInterest + numberOfPayments);
 	}
 }
