@@ -10,5 +10,9 @@ public class Logical {
 		boolean hasGoodCredit = true;
 		boolean isEligible = highIncome || hasGoodCredit;
 		System.out.println(isEligible);
+		
+		// We can negate a boolean using "!"
+		boolean isCriminal = false;
+		System.out.println(!isCriminal);
 	}
 }
