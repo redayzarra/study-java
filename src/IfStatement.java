@@ -14,8 +14,10 @@ public class IfStatement {
 		// Learning to write one-liner simplified if-statements
 		int income = 120_000;
 		boolean hasHighIncome = (income > 100_000);
+		System.out.println(hasHighIncome);
 
 		// Learning the ternary operator
 		String className = (income > 100_000) ? "First" : "Economy";
+		System.out.println(className);
 	}
 }
