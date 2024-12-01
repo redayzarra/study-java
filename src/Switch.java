@@ -16,5 +16,12 @@ public class Switch {
 			default:
 				System.out.println("You're a guest.");
 		}
-	}
+
+		// Create an enhanced switch statement or switch expression
+		switch (role) {
+			case "admin" -> System.out.println("You're an admin.");
+			case "moderator" -> System.out.println("You're a mod.");
+			default -> System.out.println("You're a guest.");
+		}
+    }
 }
